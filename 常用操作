@@ -1,0 +1,16 @@
+http://localhost:8000
+查看ip
+ifconfig -a
+
+
+查看端口占用情况
+su root
+exit
+netstat -ap|grep 1688
+gdb调试
+gcc -Wall -g -o abc abc.c
+gdb abc
+set args -i 127.0.0.1
+n
+s
+p argv[1]
