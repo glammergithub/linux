@@ -2,7 +2,8 @@ http://localhost:8000
 查看ip
 ifconfig -a
 
-
+查看可执行权限
+l -l
 查看端口占用情况
 su root
 exit
