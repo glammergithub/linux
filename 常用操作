@@ -1,9 +1,11 @@
 http://localhost:8000
+
 查看ip
 ifconfig -a
 
 查看可执行权限
 l -l
+
 查看端口占用情况
 su root
 exit
@@ -15,3 +17,8 @@ set args -i 127.0.0.1
 n
 s
 p argv[1]
+
+修改文件编码格式,查看文件字符编码
+jupyter 文件格式出错的直接复制内容到里面就好
+https://blog.csdn.net/g_66_hero/article/details/66475746
+https://zhidao.baidu.com/question/1500142419474729699.html
