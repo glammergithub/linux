@@ -35,3 +35,6 @@ wget "https://pypi.python.org/packages/source/p/pip/pip-1.5.4.tar.gz#md5=834b290
 tar -xzvf pip-1.5.4.tar.gz
 cd pip-1.5.4
 python setup.py install
+
+添加cuda、cudnn 到环境变量
+参考：https://www.douban.com/note/253182185/
