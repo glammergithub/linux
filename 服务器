@@ -1,18 +1,10 @@
 本地和远程服务器连接
 https://zhidao.baidu.com/question/1641871852000368860.html
 1.Linux下目录复制：本机->远程服务器
-
-1
-2
-
 scp -r /home/shaoxiaohu/test1 zhidao@192.168.0.1:/home/test2
 #test1为源目录，test2为目标目录，zhidao@192.168.0.1为远程服务器的用户名和ip地址。
 
 2.Linux下目录复制：远程服务器->本机
-
-1
-2
-
 scp -r zhidao@192.168.0.1:/home/test2 /home/shaoxiaohu/test1
 #zhidao@192.168.0.1为远程服务器的用户名和ip地址，test1为源目录，test2为目标目录。
 
@@ -28,10 +20,15 @@ scp -r /home/xxx/Anaconda3-5.2.0-Linux-x86_64.sh 用户名@ip:路径
 bash Anaconda3-5.2.0-Linux-x86_64.sh
 三个yes
 source ~/.bashrc
-pip安装
+
+pip安装:
 https://zhidao.baidu.com/question/1240554972151163659.html
 https://blog.csdn.net/u013372487/article/details/51726002/
+
+下载:
 wget "https://pypi.python.org/packages/source/p/pip/pip-1.5.4.tar.gz#md5=834b2904f92d46aaa333267fb1c922bb" --no-check-certificate
+git clone xxx.git(可能需要root权限)
+解压:
 tar -xzvf pip-1.5.4.tar.gz
 cd pip-1.5.4
 python setup.py install
