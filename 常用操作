@@ -32,3 +32,7 @@ http://www.bubuko.com/infodetail-488413.html
 
 复制文件
 https://www.cnblogs.com/aiyr/p/7395738.html
+
+
+ps -ef | grep jupyter
+kill -9 3587
